@@ -111,6 +111,24 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        <div className="blog-card">
+          <img
+            className="blog-card-image"
+            src="/images/blog.png"
+            alt="URL Shortener backend"
+          />
+          <div className="blog-card-content">
+            <h3>Blog </h3>
+            <p>Full stack Blog App</p>
+            <div className="blog-meta">
+              <span>React • Node.js • Express.js • MongoDB • JWT • Tailwind • React Router • React Hooks</span>
+            </div>
+            <div className="blog-actions">
+              <a className="btn btn-primary btn-small" href="https://github.com/kupadhyay2394/Blog" target="_blank" rel="noreferrer">Repo</a>
+              <a className="btn btn-outline btn-small" href="https://blog-fr.netlify.app/" target="_blank" rel="noreferrer">Live</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
