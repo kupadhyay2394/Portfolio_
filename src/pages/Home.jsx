@@ -51,7 +51,7 @@ const Home = () => {
           <a className="social-icon" href="https://github.com/kupadhyay2394" target="_blank" rel="noreferrer" aria-label="GitHub">
             <i className="devicon-github-original" />
           </a>
-          <a className="social-icon" href="https://www.linkedin.com/in/kupadhyay2394" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <a className="social-icon" href="https://www.linkedin.com/in/krishnaupadhyay1/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
             <i className="devicon-linkedin-plain" />
           </a>
           <a className="social-icon" href="mailto:kupadhyay2394@gmail.com" aria-label="Email">
@@ -62,10 +62,11 @@ const Home = () => {
           </a>
         </div>
         <div className="fade-in-up" style={{ animationDelay: '0.36s', marginTop: 16 }}>
-          <a href="/resume.pdf" download className="btn btn-primary" aria-label="Download Resume PDF">
-            Download Resume
-          </a>
-        </div>
+
+  <a href="https://drive.google.com/file/d/1Cf4SmQkxWmm239fqQOeDMmOSLyILRTky/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" aria-label="View Resume in a new tab">
+    View Resume
+  </a>
+</div>
       </div>
     </div>
   )
